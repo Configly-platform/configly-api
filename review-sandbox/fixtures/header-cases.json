@@ -1,0 +1,194 @@
+[
+  {
+    "case": "header-01",
+    "headers": {
+      "X-Request-ID": "demo-001",
+      "Idempotency-Key": "demo-key-001"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-02",
+    "headers": {
+      "X-Request-ID": "demo-002",
+      "Idempotency-Key": "demo-key-002"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-03",
+    "headers": {
+      "X-Request-ID": "demo-003",
+      "Idempotency-Key": "demo-key-003"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-04",
+    "headers": {
+      "X-Request-ID": "demo-004",
+      "Idempotency-Key": "demo-key-004"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-05",
+    "headers": {
+      "X-Request-ID": "demo-005",
+      "Idempotency-Key": "demo-key-005"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-06",
+    "headers": {
+      "X-Request-ID": "demo-006",
+      "Idempotency-Key": "demo-key-006"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-07",
+    "headers": {
+      "X-Request-ID": "demo-007",
+      "Idempotency-Key": "demo-key-007"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-08",
+    "headers": {
+      "X-Request-ID": "demo-008",
+      "Idempotency-Key": "demo-key-008"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-09",
+    "headers": {
+      "X-Request-ID": "demo-009",
+      "Idempotency-Key": "demo-key-009"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-10",
+    "headers": {
+      "X-Request-ID": "demo-010",
+      "Idempotency-Key": "demo-key-010"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-11",
+    "headers": {
+      "X-Request-ID": "demo-011",
+      "Idempotency-Key": "demo-key-011"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-12",
+    "headers": {
+      "X-Request-ID": "demo-012",
+      "Idempotency-Key": "demo-key-012"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-13",
+    "headers": {
+      "X-Request-ID": "demo-013",
+      "Idempotency-Key": "demo-key-013"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-14",
+    "headers": {
+      "X-Request-ID": "demo-014",
+      "Idempotency-Key": "demo-key-014"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-15",
+    "headers": {
+      "X-Request-ID": "demo-015",
+      "Idempotency-Key": "demo-key-015"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  },
+  {
+    "case": "header-16",
+    "headers": {
+      "X-Request-ID": "demo-016",
+      "Idempotency-Key": "demo-key-016"
+    },
+    "notes": [
+      "Synthetic value",
+      "Check case-insensitive lookup",
+      "Keep correlation in replies"
+    ]
+  }
+]

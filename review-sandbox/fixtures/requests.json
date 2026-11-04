@@ -1,0 +1,770 @@
+[
+  {
+    "case": "request-001",
+    "tenantId": "demo-tenant-01",
+    "method": "GET",
+    "path": "/v1/resource-01/item-001",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-001",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-002",
+    "tenantId": "demo-tenant-02",
+    "method": "POST",
+    "path": "/v1/resource-02/item-002",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-002",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-003",
+    "tenantId": "demo-tenant-03",
+    "method": "HEAD",
+    "path": "/v1/resource-03/item-003",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-003",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-004",
+    "tenantId": "demo-tenant-04",
+    "method": "PATCH",
+    "path": "/v1/resource-04/item-004",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-004",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-005",
+    "tenantId": "demo-tenant-05",
+    "method": "GET",
+    "path": "/v1/resource-05/item-005",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-005",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-006",
+    "tenantId": "demo-tenant-06",
+    "method": "POST",
+    "path": "/v1/resource-06/item-006",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-006",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-007",
+    "tenantId": "demo-tenant-07",
+    "method": "HEAD",
+    "path": "/v1/resource-07/item-007",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-007",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-008",
+    "tenantId": "demo-tenant-08",
+    "method": "PATCH",
+    "path": "/v1/resource-08/item-008",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-008",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-009",
+    "tenantId": "demo-tenant-09",
+    "method": "GET",
+    "path": "/v1/resource-09/item-009",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-009",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-010",
+    "tenantId": "demo-tenant-10",
+    "method": "POST",
+    "path": "/v1/resource-10/item-010",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-010",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-011",
+    "tenantId": "demo-tenant-11",
+    "method": "HEAD",
+    "path": "/v1/resource-11/item-011",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-011",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-012",
+    "tenantId": "demo-tenant-00",
+    "method": "PATCH",
+    "path": "/v1/resource-12/item-012",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-012",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-013",
+    "tenantId": "demo-tenant-01",
+    "method": "GET",
+    "path": "/v1/resource-13/item-013",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-013",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-014",
+    "tenantId": "demo-tenant-02",
+    "method": "POST",
+    "path": "/v1/resource-14/item-014",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-014",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-015",
+    "tenantId": "demo-tenant-03",
+    "method": "HEAD",
+    "path": "/v1/resource-15/item-015",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-015",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-016",
+    "tenantId": "demo-tenant-04",
+    "method": "PATCH",
+    "path": "/v1/resource-16/item-016",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-016",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-017",
+    "tenantId": "demo-tenant-05",
+    "method": "GET",
+    "path": "/v1/resource-17/item-017",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-017",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-018",
+    "tenantId": "demo-tenant-06",
+    "method": "POST",
+    "path": "/v1/resource-18/item-018",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-018",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-019",
+    "tenantId": "demo-tenant-07",
+    "method": "HEAD",
+    "path": "/v1/resource-19/item-019",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-019",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-020",
+    "tenantId": "demo-tenant-08",
+    "method": "PATCH",
+    "path": "/v1/resource-20/item-020",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-020",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-021",
+    "tenantId": "demo-tenant-09",
+    "method": "GET",
+    "path": "/v1/resource-21/item-021",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-021",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-022",
+    "tenantId": "demo-tenant-10",
+    "method": "POST",
+    "path": "/v1/resource-22/item-022",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-022",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-023",
+    "tenantId": "demo-tenant-11",
+    "method": "HEAD",
+    "path": "/v1/resource-23/item-023",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-023",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-024",
+    "tenantId": "demo-tenant-00",
+    "method": "PATCH",
+    "path": "/v1/resource-24/item-024",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-024",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-025",
+    "tenantId": "demo-tenant-01",
+    "method": "GET",
+    "path": "/v1/resource-01/item-025",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-025",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-026",
+    "tenantId": "demo-tenant-02",
+    "method": "POST",
+    "path": "/v1/resource-02/item-026",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-026",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-027",
+    "tenantId": "demo-tenant-03",
+    "method": "HEAD",
+    "path": "/v1/resource-03/item-027",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-027",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-028",
+    "tenantId": "demo-tenant-04",
+    "method": "PATCH",
+    "path": "/v1/resource-04/item-028",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-028",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-029",
+    "tenantId": "demo-tenant-05",
+    "method": "GET",
+    "path": "/v1/resource-05/item-029",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-029",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-030",
+    "tenantId": "demo-tenant-06",
+    "method": "POST",
+    "path": "/v1/resource-06/item-030",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-030",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-031",
+    "tenantId": "demo-tenant-07",
+    "method": "HEAD",
+    "path": "/v1/resource-07/item-031",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-031",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-032",
+    "tenantId": "demo-tenant-08",
+    "method": "PATCH",
+    "path": "/v1/resource-08/item-032",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-032",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-033",
+    "tenantId": "demo-tenant-09",
+    "method": "GET",
+    "path": "/v1/resource-09/item-033",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-033",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-034",
+    "tenantId": "demo-tenant-10",
+    "method": "POST",
+    "path": "/v1/resource-10/item-034",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-034",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-035",
+    "tenantId": "demo-tenant-11",
+    "method": "HEAD",
+    "path": "/v1/resource-11/item-035",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-035",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-036",
+    "tenantId": "demo-tenant-00",
+    "method": "PATCH",
+    "path": "/v1/resource-12/item-036",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-036",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-037",
+    "tenantId": "demo-tenant-01",
+    "method": "GET",
+    "path": "/v1/resource-13/item-037",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-037",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-038",
+    "tenantId": "demo-tenant-02",
+    "method": "POST",
+    "path": "/v1/resource-14/item-038",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-038",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-039",
+    "tenantId": "demo-tenant-03",
+    "method": "HEAD",
+    "path": "/v1/resource-15/item-039",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-039",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-040",
+    "tenantId": "demo-tenant-04",
+    "method": "PATCH",
+    "path": "/v1/resource-16/item-040",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-040",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-041",
+    "tenantId": "demo-tenant-05",
+    "method": "GET",
+    "path": "/v1/resource-17/item-041",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-041",
+      "X-Demo-Scenario": "scenario-1"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-042",
+    "tenantId": "demo-tenant-06",
+    "method": "POST",
+    "path": "/v1/resource-18/item-042",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-042",
+      "X-Demo-Scenario": "scenario-2"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-043",
+    "tenantId": "demo-tenant-07",
+    "method": "HEAD",
+    "path": "/v1/resource-19/item-043",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-043",
+      "X-Demo-Scenario": "scenario-3"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-044",
+    "tenantId": "demo-tenant-08",
+    "method": "PATCH",
+    "path": "/v1/resource-20/item-044",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-044",
+      "X-Demo-Scenario": "scenario-4"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-045",
+    "tenantId": "demo-tenant-09",
+    "method": "GET",
+    "path": "/v1/resource-21/item-045",
+    "region": "eu-central",
+    "headers": {
+      "X-Request-ID": "request-045",
+      "X-Demo-Scenario": "scenario-5"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-046",
+    "tenantId": "demo-tenant-10",
+    "method": "POST",
+    "path": "/v1/resource-22/item-046",
+    "region": "eu-west",
+    "headers": {
+      "X-Request-ID": "request-046",
+      "X-Demo-Scenario": "scenario-6"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-047",
+    "tenantId": "demo-tenant-11",
+    "method": "HEAD",
+    "path": "/v1/resource-23/item-047",
+    "region": "us-east",
+    "headers": {
+      "X-Request-ID": "request-047",
+      "X-Demo-Scenario": "scenario-7"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": true,
+      "audit": true
+    }
+  },
+  {
+    "case": "request-048",
+    "tenantId": "demo-tenant-00",
+    "method": "PATCH",
+    "path": "/v1/resource-24/item-048",
+    "region": "ap-south",
+    "headers": {
+      "X-Request-ID": "request-048",
+      "X-Demo-Scenario": "scenario-0"
+    },
+    "expected": {
+      "validation": "accepted",
+      "retryOn503": false,
+      "audit": true
+    }
+  }
+]

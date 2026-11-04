@@ -1,0 +1,372 @@
+{
+  "fixtureOnly": true,
+  "environment": "development",
+  "notes": "Synthetic configuration; never loaded by the application.",
+  "defaults": {
+    "timeoutMillis": 5000,
+    "retryAttempts": 3,
+    "rolloutPercentage": 100
+  },
+  "routes": [
+    {
+      "id": "demo-route-001",
+      "pathPrefix": "/v1/resource-01",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 99,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-002",
+      "pathPrefix": "/v1/resource-02",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 98,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-003",
+      "pathPrefix": "/v1/resource-03",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 97,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-004",
+      "pathPrefix": "/v1/resource-04",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 96,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    },
+    {
+      "id": "demo-route-005",
+      "pathPrefix": "/v1/resource-05",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 95,
+      "rolloutPercentage": 0,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-006",
+      "pathPrefix": "/v1/resource-06",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 94,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-007",
+      "pathPrefix": "/v1/resource-07",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 93,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-008",
+      "pathPrefix": "/v1/resource-08",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 92,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    },
+    {
+      "id": "demo-route-009",
+      "pathPrefix": "/v1/resource-09",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 91,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-010",
+      "pathPrefix": "/v1/resource-10",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 90,
+      "rolloutPercentage": 0,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-011",
+      "pathPrefix": "/v1/resource-11",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 89,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": false,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-012",
+      "pathPrefix": "/v1/resource-12",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 88,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    },
+    {
+      "id": "demo-route-013",
+      "pathPrefix": "/v1/resource-13",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 87,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-014",
+      "pathPrefix": "/v1/resource-14",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 86,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-015",
+      "pathPrefix": "/v1/resource-15",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 85,
+      "rolloutPercentage": 0,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-016",
+      "pathPrefix": "/v1/resource-16",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 84,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    },
+    {
+      "id": "demo-route-017",
+      "pathPrefix": "/v1/resource-17",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 83,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-018",
+      "pathPrefix": "/v1/resource-18",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 82,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-019",
+      "pathPrefix": "/v1/resource-19",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 81,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-020",
+      "pathPrefix": "/v1/resource-20",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 80,
+      "rolloutPercentage": 0,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    },
+    {
+      "id": "demo-route-021",
+      "pathPrefix": "/v1/resource-21",
+      "region": "eu-central",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 79,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-1"
+    },
+    {
+      "id": "demo-route-022",
+      "pathPrefix": "/v1/resource-22",
+      "region": "eu-west",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 78,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": false,
+      "owner": "demo-team-2"
+    },
+    {
+      "id": "demo-route-023",
+      "pathPrefix": "/v1/resource-23",
+      "region": "us-east",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 77,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-3"
+    },
+    {
+      "id": "demo-route-024",
+      "pathPrefix": "/v1/resource-24",
+      "region": "ap-south",
+      "methods": [
+        "GET",
+        "HEAD",
+        "POST"
+      ],
+      "priority": 76,
+      "rolloutPercentage": 100,
+      "timeoutMillis": 5000,
+      "enabled": true,
+      "owner": "demo-team-4"
+    }
+  ]
+}
